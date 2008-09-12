@@ -22,7 +22,7 @@ import pisi
 
 # Append a local copy of trunk/pisi for using Pisi API without having
 # root privileges on buildfarm.
-sys.path.append("pisi/")
+# sys.path.append("/home/ozan/pisi/")
 
 if __name__ == "__main__":
     d = {}
@@ -31,7 +31,9 @@ if __name__ == "__main__":
     for p in file_list:
         print "Processing %s.." % p
         for f in filter(lambda x:x.type=="executable", pisi.package.Package(p).get_files().list):
-            d[os.path.join("/", f.path)] = (os.path.basename(p).rstrip(".pisi")).rsplit("-", 3)[0]
+            fpath = os.path.join("/", f.path)
+            if os.access(fpath, os.X_OK):
+                d[fpath] = (os.path.basename(p).rstrip(".pisi")).rsplit("-", 3)[0]
 
     o = open("packages.db", "wb")
     cPickle.Pickler(o, protocol=2)
