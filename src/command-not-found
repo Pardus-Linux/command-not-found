@@ -14,8 +14,9 @@ import locale
 import cPickle
 
 import gettext
-__trans = gettext.translation("command-not-found", fallback=True)
-_ = __trans.ugettext
+#__trans = gettext.translation("command-not-found", fallback=True)
+#_ = __trans.ugettext
+gettext.install('command-not-found')
 
 try:
     if __name__ == "__main__":
