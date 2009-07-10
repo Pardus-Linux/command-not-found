@@ -26,7 +26,7 @@ import pisi
 
 if __name__ == "__main__":
     d = {}
-    file_list = glob.glob("/var/cache/pisi/packages/*.pisi")
+    file_list = glob.glob("/var/cache/pisi/packages-test/*.pisi")
 
     for p in file_list:
         print "Processing %s.." % p

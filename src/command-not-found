@@ -22,7 +22,7 @@ try:
     if __name__ == "__main__":
         try:
             # unpickle data
-            d = cPickle.Unpickler(open("/var/command-not-found/packages.db", "rb")).load()
+            d = cPickle.Unpickler(open("/var/db/command-not-found/packages.db", "rb")).load()
 
             cmd = sys.argv[1]
 
