@@ -1,13 +1,13 @@
 #!/bin/sh
 
-rm -rf command-not-found-*
+#rm -rf command-not-found-*
 
-svn export command-not-found command-not-found-$1
-mkdir command-not-found-$1/data
+#svn export command-not-found command-not-found-$1
+#mkdir command-not-found-$1/data
 
-cd command-not-found-$1/data
-sudo python ../src/generate.py
-cd
+#cd command-not-found-$1/data
+#sudo python ../src/generate.py
+#cd
 
 tar cvjf command-not-found-$1.tar.bz2 command-not-found-$1
 
