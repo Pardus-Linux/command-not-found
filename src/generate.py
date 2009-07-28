@@ -35,7 +35,7 @@ if __name__ == "__main__":
             if os.access(fpath, os.X_OK):
                 d[fpath] = (os.path.basename(p).rstrip(".pisi")).rsplit("-", 3)[0]
 
-    o = open("packages.db", "wb")
+    o = open("data/packages.db", "wb")
     cPickle.Pickler(o, protocol=2)
     cPickle.dump(d, o, protocol=2)
     o.close()
