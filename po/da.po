@@ -1,8 +1,6 @@
-# translation of sv.po to svenska
-# translation of command-not-found.po to
+# translation of command-not-found.po to danish
 # Copyright (C) YEAR ORGANIZATION
 #
-# Patrik Karlsson <patrik@pardus.nu>, 2008.
 # Peter Lyberth <peterjensen84@gmail.com>, 2009.
 msgid ""
 msgstr ""
