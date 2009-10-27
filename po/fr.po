@@ -25,5 +25,5 @@ msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquet ou en éc
 
 #: src/command-not-found.py:53
 msgid "You can install it using package manager."
-msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquet."
+msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquets."
 
