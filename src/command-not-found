@@ -24,6 +24,12 @@ try:
             # unpickle data
             d = cPickle.Unpickler(open("/var/db/command-not-found/packages.db", "rb")).load()
 
+            # Dump database if --dump (needed by krunner pisi plugin)
+            if "--dump" in sys.argv:
+                for path, package in d.items():
+                    print "%s,%s" % (path, package)
+                sys.exit(0)
+
             cmd = sys.argv[1]
 
             # check path
