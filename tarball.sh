@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd ..
-rm -rf command-not-found-$2*
+rm -rf command-not-found-$1*
 
 cp -r command-not-found command-not-found-$1
 
