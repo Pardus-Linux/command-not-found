@@ -1,6 +1,6 @@
 # translation of fr.po to
 # Copyright (C) YEAR ORGANIZATION
-#
+# 
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2008.
 msgid ""
 msgstr ""
@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 2008-04-10 19:55+EEST\n"
 "PO-Revision-Date: 2008-06-17 15:33+0300\n"
 "Last-Translator: Ozan Çağlayan <ozan@pardus.org.tr>\n"
-"Language-Team:  <tr@li.org>\n"
+"Language-Team: <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,9 +21,8 @@ msgstr "Le logiciel '%s' n'est pas installé sur votre système."
 
 #: src/command-not-found.py:44 src/command-not-found.py:49
 msgid "You can install it using package manager or by typing:"
-msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquet ou en écrivant:"
+msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquets ou en écrivant :"
 
 #: src/command-not-found.py:53
 msgid "You can install it using package manager."
 msgstr "Vous pouvez l'installer en utilisant le gestionnaire de paquets."
-
