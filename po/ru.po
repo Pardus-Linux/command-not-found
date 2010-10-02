@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -14,16 +14,14 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 "Generated-By: pygettext.py 1.5\n"
 
-
 #: src/command-not-found.py:40
 msgid "The program '%s' is not installed on your system."
-msgstr ""
+msgstr "Программа '%s' не установленна в вашей системе."
 
 #: src/command-not-found.py:44 src/command-not-found.py:49
 msgid "You can install it using package manager or by typing:"
-msgstr ""
+msgstr "Вы можете установить ее с помощью менеджера пакетов или введите:"
 
 #: src/command-not-found.py:53
 msgid "You can install it using package manager."
-msgstr ""
-
+msgstr "Вы можете установить ее с помощью менеджера пакетов."
