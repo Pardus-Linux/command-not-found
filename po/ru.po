@@ -16,7 +16,7 @@ msgstr ""
 
 #: src/command-not-found.py:40
 msgid "The program '%s' is not installed on your system."
-msgstr "Программа '%s' не установленна в вашей системе."
+msgstr "Программа '%s' не установлена в вашей системе."
 
 #: src/command-not-found.py:44 src/command-not-found.py:49
 msgid "You can install it using package manager or by typing:"
