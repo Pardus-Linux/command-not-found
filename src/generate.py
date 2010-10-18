@@ -40,7 +40,7 @@ if __name__ == "__main__":
         for f in filter(lambda x:x.type=="executable", pisi.package.Package(p).get_files().list):
             fpath = os.path.join("/", f.path)
             if os.access(fpath, os.X_OK):
-                d[fpath] = (os.path.basename(p).rstrip(".pisi")).rsplit("-", 3)[0]
+                d[fpath] = pisi.util.split_package_filename(p)[0]
 
     o = open("data/packages.db", "wb")
     cPickle.Pickler(o, protocol=2)
