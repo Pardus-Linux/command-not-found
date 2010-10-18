@@ -25,8 +25,15 @@ import pisi
 # sys.path.append("/home/ozan/pisi/")
 
 if __name__ == "__main__":
+
+    directory = "/var/cache/pisi/packages-test/"
+    try:
+        directory = sys.argv[1]
+    except KeyError:
+        pass
+
     d = {}
-    file_list = [f for f in glob.glob("/var/cache/pisi/packages-test/*.pisi") if not f.endswith(".delta.pisi")]
+    file_list = [f for f in glob.glob("%s/*.pisi" % directory) if not f.endswith(".delta.pisi")]
 
     for p in file_list:
         print "Processing %s.." % p
