@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # Daniel KovÃ¡cs <bicskas9323@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Pardus 2009\n"
@@ -16,14 +16,12 @@ msgstr ""
 
 #: src/command-not-found.py:40
 msgid "The program '%s' is not installed on your system."
-msgstr "A program '%s' nincs telepítve a rendszeren."
+msgstr "A(z) '%s' program nincs telepítve."
 
-#: src/command-not-found.py:44
-#: src/command-not-found.py:49
+#: src/command-not-found.py:44 src/command-not-found.py:49
 msgid "You can install it using package manager or by typing:"
-msgstr "Telepítheti a csomagkezelővel vagy beírva:"
+msgstr "Telepítheti a csomagkezelővel vagy az alábbi parancs beírásával:"
 
 #: src/command-not-found.py:53
 msgid "You can install it using package manager."
-msgstr "Telepítheti a csomagkezelővel."
-
+msgstr "A csomagkezelővel telepítheti."
