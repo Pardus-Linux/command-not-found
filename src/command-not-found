@@ -51,7 +51,7 @@ try:
                 print _("You can install it using package manager or by typing:")
                 print "pisi it %s" % package
 
-            elif "wheel" in os.popen("groups").read().split():
+            elif "wheel" in os.popen("groups").read().split() and package != "sudo":
                 # Can sudo
                 print _("You can install it using package manager or by typing:")
                 print "sudo pisi it %s" % package
